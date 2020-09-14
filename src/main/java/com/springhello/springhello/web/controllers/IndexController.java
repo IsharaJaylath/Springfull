@@ -1,12 +1,12 @@
-package com.springhello.springhello.controllers;
+package com.springhello.springhello.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HelloworldController {
+public class IndexController {
     @RequestMapping("/")
-    public String SayHello(){
+    public String home(){
         return "index";
     }
 }
